@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+
+
+
+<head>
+
+
+
+    <style type="text/css">
+        .page-header h2 {
+            margin-top: 0;
+        }
+
+        table tr td:last-child a {
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+<body>
+        <!-- login modal -->
+        
+        <div class="modal fade" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <center>
+                        <h4 class="modal-title" id="basicModal">Login</h4>
+                    </center>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form id="login_form" action="">
+    
+                            <div class='row form-group'>
+                                <div class='col-sm-2'>
+                                    <label class='control-label' style='position:relative; top:7px;'>Usename:</label>
+                                </div>
+                                <div class='col-sm-10'>
+                                    <input type='text' class='form-control' id="uname" name='uname' required>
+    
+                                </div>
+                                <div class='col-sm-2'>
+                                    <label class='control-label' style='position:relative; top:7px;'>Password:</label>
+                                </div>
+                                <div class='col-sm-10'>
+                                    <input type='password' class='form-control' id="password" name='password' required>
+    
+                                </div>
+    
+    
+                            </div>
+    
+    
+                    </div>
+                </div>
+                <div class="modal-footer">
+    
+                    <button type="submit" class="btn btn-primary">Login</button>
+    
+                    </form>
+                </div>
+                <div id="alert" class="alert alert-info text-center" style="display:none;">
+                        <span id="alert_message"></span>
+                </div>
+                <div class="modal-footer"><p><b>New user?</b></p>
+                    <p><a class="active-reg registration" href="#register"><button class="btn btn-primary">Register</button></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+
+
+</html>
+
