@@ -1,3 +1,5 @@
+EIE4432 Group Project
+
 1.  Please first run the '4432_db.sql' file into the mysql phpmyadmin database
 
 2.  Testing account username & password are shown as the following:
